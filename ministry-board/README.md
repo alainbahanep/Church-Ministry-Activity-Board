@@ -41,7 +41,7 @@ The main goal of this project is to:
 
 - HTML5
 - CSS3 (Flexbox)
-- Vanilla JavaScript (ES6)
+- JavaScript
 - Git & GitHub
 
 ---
