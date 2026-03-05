@@ -106,6 +106,10 @@ This project is part of a structured learning program to develop:
 
 ---
 
+## Team Members
+
+- Alain Bahane
+
 ## License
 
 This project is for educational purposes.
