@@ -1,69 +1,59 @@
-# Church Ministry Activity Board
+# Church Ministry Activity Board (Development Branch)
 
-## Overview
+## Purpose of This Branch
 
-The Church Ministry Activity Board is a simple front-end web application built with HTML, CSS, and JavaScript.
+The `develop` branch is the main working branch for active development.
 
-It allows church leaders to:
+All new features, improvements, and experiments must be merged here before reaching `main`.
 
-- Add ministry activities
-- Display activities dynamically
-- Delete activities
-- Persist data using LocalStorage
-
-This project was developed as a team collaboration exercise to practice Git workflow and front-end fundamentals.
+This branch represents the collaborative learning environment of the team.
 
 ---
 
-## Purpose
+## Development Goals
 
-The main goal of this project is to:
+This project aims to help beginners:
 
-- Learn HTML semantic structure
-- Practice responsive CSS design
-- Manipulate the DOM using JavaScript
-- Work collaboratively using Git and GitHub
-- Understand team-based development workflow
-
----
-
-## Features
-
-- Add a new activity (Title, Date, Ministry)
-- Display activities in a dynamic list
-- Delete activities
-- Data persistence using LocalStorage
-- Responsive layout (mobile-friendly)
+- Understand front-end architecture
+- Practice DOM manipulation
+- Work with LocalStorage
+- Use Git professionally
+- Learn how to collaborate effectively
 
 ---
 
-## Technologies Used
+## Team Roles
 
-- HTML5
-- CSS3 (Flexbox)
-- JavaScript
-- Git & GitHub
+Each team member has a specific responsibility:
+
+- HTML Structure Lead
+- CSS / UI Lead
+- JavaScript Lead
+- Git & Quality Lead
+
+Everyone must understand their own role AND the global structure of the project.
 
 ---
+## Team Members
+- Salomon
+- 
+---
+## Branching Strategy
 
-## Project Structure
-ministry-board/
+We follow a simplified Git workflow:
 
-│
+- `main` → stable version
+- `develop` → integration branch
+- `feature/html`
+- `feature/css`
+- `feature/js`
 
-├── index.html
+### Rules
 
-├── css/
-
-│ 
-└── style.css
-
-├── js/
-
-│ 
-└── app.js
-
-└── README.md
+- Never commit directly to `main`
+- Create a feature branch for each task
+- Submit a Pull Request to `develop`
+- Code review is required before merging
 
 ---
 
@@ -76,36 +66,40 @@ ministry-board/
    git clone "https://github.com/FreeDev-Group/Church-Ministry-Activity-Board.git"
 2. Open the project folder
 3. Open `index.html` in your browser
+## Development Process
 
-No installation or backend required.
-
----
-
-## Git Workflow
-
-The `main` branch contains the stable and production-ready version of the application.
-
-All new development must be done in the `develop` branch or feature branches.
-
----
-
-## Team Collaboration Rules
-
-- Never push directly to `main`
-- All changes must go through Pull Requests
-- Code review is mandatory before merging
-- Keep commits clear and descriptive
+1. Pull latest changes from `develop`
+2. Create a feature branch
+3. Implement your task
+4. Test locally
+5. Submit a Pull Request
+6. Participate in code review
+7. Merge after approval
 
 ---
 
-## Educational Focus
+## Coding Standards
 
-This project is part of a structured learning program to develop:
+- Keep code clean and readable
+- Use meaningful variable names
+- Comment complex logic
+- Keep functions small and focused
 
-- Technical skills
-- Team communication
-- Responsibility
-- Clean coding practices
+---
+
+## Educational Mindset
+
+This is not just about making the app work.
+
+It is about:
+
+- Learning
+- Understanding
+- Explaining your code
+- Improving as a team
+
+Mistakes are allowed.
+Silence and confusion are not.
 
 ---
 
@@ -114,5 +108,10 @@ This project is part of a structured learning program to develop:
 - Alain Bahane
 
 ## License
+## Reminder
 
-This project is for educational purposes.
+If something is unclear:
+
+- Ask questions
+- Document your understanding
+- Share what you learned with the team
